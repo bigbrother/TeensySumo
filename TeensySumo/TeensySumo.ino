@@ -41,6 +41,7 @@ NewPing sonar(TRIGGER_PIN, TRIGGER_PIN, MAX_DISTANCE);
 
 //***************************Main program********************************
 /*---------------------------init and startup--------------------------*/
+void setup(){
   delay(5000);
   //Init all motor control pins
   pinMode(pwmA, OUTPUT);
