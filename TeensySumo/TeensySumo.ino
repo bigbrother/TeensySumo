@@ -26,7 +26,7 @@ const int stby = 8;
 //IR reflective sensors
 #define NUM_SENSORS   2     // number of sensors used
 #define TIMEOUT       2500  // waits for 2500 microseconds for sensor outputs to go low
-#define LIGHT_TRIGGER 80
+#define LIGHT_TRIGGER 60
 //90 seems to be a good number to trigger. 
 QTRSensorsRC qtrrc((unsigned char[]) {5,6}, NUM_SENSORS, TIMEOUT); 
 unsigned int sensorValues[NUM_SENSORS];
